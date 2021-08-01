@@ -1,0 +1,295 @@
+html{
+  
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+  
+}
+  
+:root{
+  
+    --primary-color: rgb(184, 217, 243);
+    --secondary-color: #212121;
+  
+}
+  
+.dark-theme{
+  
+    --primary-color: rgb(70, 96, 116);
+    --secondary-color: rgb(0, 0, 0);
+  
+}
+  
+  
+#body{
+  
+    background-color: rgb(20,21,21);
+    margin: 0;
+  
+}
+
+#main_img{
+
+    height: 950px;
+    width: 100%;
+    margin-top: -280px;
+    position: fixed;
+}
+
+
+/*navigation*/
+
+
+#logo{
+
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+
+.topnav {
+  
+    width: 95%;
+    height: auto;
+    text-align: left;
+    margin-left: 20px;
+    padding-top: 8px;
+    position: sticky;
+    
+}
+  
+  
+.topnav a {
+    
+    display: inline-block;
+    color: rgb(133, 133, 133);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 10px;
+    
+}
+  
+  
+.topnav a:hover {
+    color: white;
+    transition: ease-in-out bottom 1s, ease-in-out left 1s;
+    transform: translateY(-2px);
+    bottom: 40px;
+
+}
+  
+  
+.topnav .icon {
+    display: none;
+}
+
+
+
+
+/* Dark Mode */
+
+#moon{
+
+    width: 30px;
+    cursor: pointer;
+    position: absolute;
+    float: left;
+    margin-top: 38px;
+    margin-right: 20px;
+    margin-left: 30px;
+  
+}
+
+#login{
+
+    float: right;
+    flex: 1;
+    text-align: right;
+    overflow: hidden;
+  
+}
+
+
+#download{
+
+    width: 180px;
+    height: 45px;
+    margin-top: 33px;
+    border-radius: 500px;
+    font-family: sans-serif;
+    font-size: 15px;
+    border: 2px solid rgb(66, 66, 66);
+    background-color: rgb(148, 148, 148);
+    float: right;
+    position: relative;
+}
+  
+
+  
+/* Responsive navigation bar */
+  
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+}
+
+
+#maintext{
+    color: var(--secondary-color);
+    font-size: 100px;
+    font-family: sans-serif;
+    text-align: center;
+    position: fixed;
+    margin-top: 100px;
+    margin-left: 100px;
+    color: rgb(230, 89, 89);
+}
+
+
+
+/* Main Boxes CSS */
+
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 23%;
+    margin: 0 12px;
+    color: var(--secondary-color);
+    position: relative;
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+}
+  
+/* Remove extra left and right margins, due to padding */
+.row {
+    padding: 0 80px;
+    margin: 0 10px;
+    margin-top: 500px;
+}
+  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Learn more Button */
+
+.linkbut{
+
+    cursor: pointer;
+    font-size: 15px;
+    float: center;
+    margin-left: auto;
+    text-decoration: none;
+    color: #000;
+  
+}
+  
+.linkbut:hover {
+    color:rgb(129, 129, 129);
+}
+
+  
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+}
+  
+/* Style the counter cards */
+.card {
+    padding: 10px;
+    text-align: center;
+    height: 200px;
+}
+
+
+
+/* Center the image and position the close button */
+  
+#avatar {
+    width: 20%;
+}
+  
+#container {
+    padding: 16px;
+}
+  
+/* The Modal (background) */
+.modal1 {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    padding-top: 30px;
+}
+  
+/* Modal Content/Box */
+.modal1-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; 
+    border: 1px solid #888;
+    width: 80%; 
+    height: auto;
+}
+  
+  /* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+  
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+  
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}

@@ -118,15 +118,28 @@ html{
 
     width: 180px;
     height: 45px;
+    text-align: center;
     margin-top: 33px;
     border-radius: 500px;
     font-family: sans-serif;
     font-size: 15px;
     border: 2px solid rgb(66, 66, 66);
-    background-color: rgb(148, 148, 148);
     float: right;
     position: relative;
+    cursor: pointer;
+
+    background-image: linear-gradient(to right, #D66D75 0%, #E29587  51%, #D66D75  100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+    display: block;
 }
+
+.resbtn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+} 
+
   
 
   

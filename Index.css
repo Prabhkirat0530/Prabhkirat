@@ -218,7 +218,7 @@ html{
 #contact{
     text-align: left;
     margin: 0 60px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .col i:hover{
@@ -249,33 +249,57 @@ html{
 }
 
 
-/* BG div with skills and other information */
-
-/* Skills Box */
-
-/* #skills{
-
-    width: 40%;
-    height: 340px;
-    border: 1px solid black;
-    background-color: rgb(45, 143, 83);
-    border-radius: 10px;
-    margin-top: 80px;
-} */
+/*skills*/
 
 
-/* Society Box */
+.icon-box {
+  display: flex;
+  align-items: center;
+  width: auto;
+  padding: 20px;
+  transition: ease-in-out 0.3s;
+}
 
-/* #societies{
+.icon-box i {
+  font-size: 32px;
+  padding-right: 10px;
+  line-height: 1;
+}
 
-    width: 40%;
-    height: 340px;
-    border: 1px solid black;
-    background-color: rgb(46, 155, 73);
-    border-radius: 10px;
-    margin-left: 60px;
-    margin-top: 80px;
-} */
+.icon-box h3 {
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  padding-left: 0.5rem;
+  line-height: 1;
+  font-size: 20px;
+  color: var(--secondary-color);
+}
+
+.icon-box:hover {
+  background: rgba(122, 122, 122, 0.12);
+}
+
+.tech-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 50px;
+  padding-top: 200px;
+
+}
+
+.grid-container > div {
+  background-color: var(--primary-color);
+  text-align: center;
+  font-size: 30px;
+}
+
 
 .logo{
 
@@ -380,7 +404,7 @@ html{
 /* Main Text Headings */
 
 .maintext{
-    font-size: 100px;
+    font-size: 80px;
     font-family: sans-serif;
     position: absolute;
     margin-left: 100px;
@@ -389,11 +413,11 @@ html{
 }
 
 .maintext2{
-    font-size: 100px;
+    font-size: 80px;
     font-family: sans-serif;
     position: absolute;
     color: rgb(230, 89, 89);
-    margin-top: 10px;
+    margin-top: 80px;
     margin-left: 100px;
 }
 
@@ -496,7 +520,7 @@ html{
 }
 
 .but1:hover {
-    color:rgb(88, 88, 88);
+    color:rgb(58, 58, 58);
 }
 
 

@@ -17,6 +17,18 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
     <link rel="manifest" href="favicon_io/site.webmanifest">
 
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- jQuery first, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <!-- Slick Slider JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
 </head>
 
 <body style="top: 0;" id="body">
@@ -32,8 +44,8 @@
 
 
         <a href="index.html">Home</a>
-        <a href="Projects.html">Projects</a>
-        <a href="Courses.html">Courses</a>
+        <a href="#projects">Projects</a>
+        <a href="#event">Events</a>
         <a href="Certificates.html">Certificates</a>
         <a href="#contactme">Contact</a>
 
@@ -119,6 +131,7 @@
     <!-- Information Block -->
 
     <div style="background-image: url(Images/bg.jpg);">
+
         <div id="block1">
 
             <div id="skills">
@@ -151,7 +164,114 @@
                 Developer Student Club. I also recived an appreciation letter (in first year itself) from IEEE for my
                 work in organising the event.
             </p>
+            <a href="#">All certificates</a>
+            <p>Google drive link</p>
 
+        </div>
+
+    </div>
+    <div class="rowc">
+        <div class="containerc">
+            <section class="logo-carousel slider">
+                <div class="slide"><img style="margin-top: -20px;" src="Images/Courses/cisco-2.svg">
+                </div>
+                <div class="slide"><img style="margin-top: -10px;" src="Images/Courses/codecheif.png">
+                </div>
+                <div class="slide"><img style="margin-top: -20px;" src="Images/Courses/ieee.png">
+                </div>
+                <div class="slide"><img src="Images/Courses/HackerRank.svg">
+                </div>
+                <div class="slide"><img src="Images/Courses/udemy-2.svg">
+                </div>
+                <div class="slide"><img src="Images/Courses/LI-Logo.png">
+                </div>
+                <div class="slide"><img src="Images/Courses/codingNinjas.png">
+                </div>
+                <div class="slide"><img style="margin-top: 10px;" src="Images/Courses/coursera.svg">
+                </div>
+            </section>
+        </div>
+    </div>
+    <hr width="1000px">
+
+    <!-- Projects -->
+
+    <h1 class="maintext" id="projects">Projects</h1>
+
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <h2 style="color: black;">ClassicPedia</h2>
+                <p>Classic Pedia is a completly free enscyclopedia containing all ragas, instuments and people
+                    related
+                    to Indian Classical Music which will help better understand the music form.
+                </p>
+
+                <a onclick="document.getElementById('id01').style.display='block'" class="linkbut">Learn More >></a>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <h2 style="color: black;">Card Feeder</h2>
+                <p>Card FeeDer is a simple tool which helps users to
+                    connect to their local small scale vendors. It creates a unique Id to each and every user who
+                    can
+                    sign in using this Id.
+                </p>
+
+                <a onclick="document.getElementById('id02').style.display='block'" class="linkbut">Learn More >></a>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <h2 style="color: black;">ClassicPedia</h2>
+                <p>Some text</p>
+
+                <a onclick="document.getElementById('id01').style.display='block'" class="linkbut">Learn More >></a>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <h2 style="color: black;">ClassicPedia</h2>
+                <p>Some text</p>
+
+                <a onclick="document.getElementById('id01').style.display='block'" class="linkbut">Learn More >></a>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <h3>Card 4</h3>
+                <p>Some text</p>
+                <p>Some text</p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <h3>Card 4</h3>
+                <p>Some text</p>
+                <p>Some text</p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <h3>Card 4</h3>
+                <p>Some text</p>
+                <p>Some text</p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <h3>Card 4</h3>
+                <p>Some text</p>
+                <p>Some text</p>
+            </div>
         </div>
 
     </div>
@@ -160,27 +280,30 @@
 
     <!-- Hackathons and Competitions -->
 
+    <h1 id="event" class="maintext" style="margin-top: 250px;">Events</h1>
+
     <div id="hack">
 
         <div class="hack1 reveal">
 
             <h2>Hack with Her 3.0</h2>
 
-            <p>Participated and Organised a 2-day online coding and hardware national level hackathon. With a team of
-                four we created CARD FEEDER, a simple tool to have a identity card for unorganized sector. I was the
+            <p>Participated and Organised a 2-day online coding <b>National level hackathon</b>. With the team of
+                four we created CARD FEEDER, a simple tool to have an identity card for unorganized sector. I was the
                 team leader and presented our idea with a working website to the mentors from microsoft and Google
                 Developer Student Club. I also recived an appreciation letter (in first year itself) from IEEE for my
-                work in organising the event.
+                work in organising.
             </p>
 
-            <a href="" class="but1"> Learn More >></a>
+            <a href="" class="but1"> Learn More >></a><br>
+
+
+            <img id="h1" src="Images/Hackathons/hackwithher1.png">
+            <img id="h2" src="Images/Hackathons/hackwithher2.png">
+            <img id="h3" src="Images/Hackathons/hackwithher3.png">
+            <img id="h4" src="Images/Hackathons/hackwithher4.png">
 
         </div>
-
-        <img id="h1" src="Images/Hackathons/hackwithher1.png">
-        <img id="h2" src="Images/Hackathons/hackwithher2.png">
-        <img id="h3" src="Images/Hackathons/hackwithher3.png">
-        <img id="h4" src="Images/Hackathons/hackwithher4.png">
 
         <div class="hack1 reveal">
 
@@ -196,14 +319,14 @@
                 life.
             </p>
 
-            <a href="" class="but1"> Learn More >></a>
+            <a href="" class="but1"> Learn More >></a><br>
+
+            <img id="h1" src="Images/Hackathons/hackwithher1.png">
+            <img id="h2" src="Images/Hackathons/hackwithher2.png">
+            <img id="h3" src="Images/Hackathons/hackwithher3.png">
+            <img id="h4" src="Images/Hackathons/hackwithher4.png">
 
         </div>
-
-        <img id="h1" src="Images/Hackathons/hackwithher1.png">
-        <img id="h2" src="Images/Hackathons/hackwithher2.png">
-        <img id="h3" src="Images/Hackathons/hackwithher3.png">
-        <img id="h4" src="Images/Hackathons/hackwithher4.png">
 
     </div>
     <hr>
@@ -288,6 +411,33 @@
                 x.className = "topnav";
             }
         }
+    </script>
+
+    <!-- Carosal -->
+
+    <script>
+        $(document).ready(function () {
+            $('.logo-carousel').slick({
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 1500,
+                arrows: false,
+                dots: false,
+                pauseOnHover: false,
+                responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 4
+                    }
+                }, {
+                    breakpoint: 520,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                }]
+            });
+        });
     </script>
 
 

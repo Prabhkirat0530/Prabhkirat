@@ -331,6 +331,139 @@ html{
 
 
 
+/* Carousel */
+/* Carousel logos */
+
+.rowc{
+    position: relative;
+    margin-top: 20px;
+}
+
+
+/* Slider */
+.slick-slide {
+    margin: 0px 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+  
+.logo-carousel {
+    overflow: inherit;
+}
+  
+.slick-slide img {
+    width: 100%;
+}
+  
+.slick-track::before,
+.slick-track::after {
+    display: table;
+    content: '';
+}
+  
+.slick-track::after {
+    clear: both;
+}
+  
+.slick-track {
+    padding: 1rem 0;
+}
+  
+.slick-loading .slick-track {
+    visibility: hidden;
+}
+  
+.slick-slide.slick-loading img {
+    display: none;
+}
+  
+.slick-slide.dragging img {
+    pointer-events: none;
+}
+  
+.slick-loading .slick-slide {
+    visibility: hidden;
+}
+  
+  
+/* Media Queries */
+  
+@media (max-width: 768px) {
+    .slick-arrow {
+      width: 1rem;
+      height: 1rem;
+    }
+}
+
+
+
+
+/* Projects */
+
+.maintext{
+    font-size: 100px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 200px;
+    color: rgb(230, 89, 89);
+}
+
+
+
+/* Main Boxes CSS */
+
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 23%;
+    margin: 0 12px;
+    color: black;
+    position: relative;
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: rgb(216, 213, 213);
+}
+  
+/* Remove extra left and right margins, due to padding */
+.row {
+    padding: 0 80px;
+    margin: 0 10px;
+    margin-top: 400px;
+}
+  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+}
+  
+/* Style the counter cards */
+.card {
+    padding: 10px;
+    text-align: center;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
 /* Hackathons and Compettions */
 
 #hack{
@@ -338,7 +471,7 @@ html{
     width: 100%;
     color: var(--secondary-color);
     text-align: center;
-    margin-top: 80px;
+    margin-top: 360px;
     margin-bottom: 100px;
 
 }
@@ -350,12 +483,12 @@ html{
 
 	width: auto;
 	height: auto;
-    background-color: #2E8364;
+    background-color: rgb(178, 73, 78);
     border: 2px solid black;
     padding: 30px;
     margin-top: 80px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
     font-size: 30px;
     display: inline-block;
     color: black;
@@ -367,7 +500,7 @@ html{
 
     cursor: pointer;
 	font-size: 20px;
-    float: right;
+    float: center;
     margin-left: auto;
     text-decoration: none;
     color: #000;
@@ -385,8 +518,8 @@ html{
 
 #h1{
 
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     margin-top: 80px;
     margin-right: 20px;
     margin-left: 20px;
@@ -394,22 +527,22 @@ html{
 
 #h2{
 
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     margin-right: 20px;
 }
 
 #h3{
 
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     margin-right: 20px;
 }
 
 #h4{
 
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     margin-right: 20px;
 }
 

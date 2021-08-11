@@ -257,6 +257,7 @@ html{
   align-items: center;
   width: auto;
   padding: 20px;
+  padding-left: 30px;
   transition: ease-in-out 0.3s;
 }
 
@@ -290,7 +291,7 @@ html{
   grid-template-columns: auto auto auto auto;
   grid-gap: 10px;
   padding: 50px;
-  padding-top: 200px;
+  padding-top: 230px;
 
 }
 
@@ -317,9 +318,10 @@ html{
 
 .featured{
 
-    position: relative;
+
     width: auto;
 	height: 450px;
+    color: black;
     background-color: rgb(134, 200, 184);
     border: 1px solid black;
     padding: 30px;
@@ -327,7 +329,6 @@ html{
     margin-bottom: 40px;
     margin-left: 20px;
     margin-right: 20px;
-    display: inline-block;
     border-radius: 10px;
 }
 
@@ -338,7 +339,7 @@ html{
 
 .rowc{
     position: relative;
-    margin-top: 20px;
+    margin-top: 150px;
 }
 
 

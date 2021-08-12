@@ -256,14 +256,13 @@ html{
   display: flex;
   align-items: center;
   width: auto;
-  padding: 20px;
-  padding-left: 30px;
+  padding: 18px;
+  padding-left: 60px;
   transition: ease-in-out 0.3s;
 }
 
 .icon-box i {
-  font-size: 32px;
-  padding-right: 10px;
+  font-size: 20px;
   line-height: 1;
 }
 
@@ -282,16 +281,17 @@ html{
 }
 
 .tech-icon{
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 10px;
-  padding: 50px;
+  padding: 150px;
   padding-top: 230px;
+  text-align: center;
 
 }
 
@@ -314,91 +314,80 @@ html{
     justify-content: space-between;
 }
 
+
+
 /* Featured Box */
 
 .featured{
 
-
     width: auto;
-	height: 450px;
+	height: auto;
     color: black;
-    background-color: rgb(134, 200, 184);
+    background-color: rgb(178, 73, 78);
     border: 1px solid black;
-    padding: 30px;
+    padding: 10px;
     margin-top: 40px;
     margin-bottom: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
     border-radius: 10px;
+    transition: ease-in-out 0.3s;
 }
 
 
 
-/* Carousel */
-/* Carousel logos */
+/* Images certifates */
 
-.rowc{
-    position: relative;
-    margin-top: 150px;
-}
-
-
-/* Slider */
-.slick-slide {
-    margin: 0px 20px;
-    margin-left: 40px;
-    margin-right: 40px;
-
-}
-  
-.logo-carousel {
-    overflow: inherit;
-}
-  
-.slick-slide img {
-    width: 100%;
-}
-  
-.slick-track::before,
-.slick-track::after {
-    display: table;
-    content: '';
-}
-  
-.slick-track::after {
-    clear: both;
-}
-  
-.slick-track {
-    padding: 1rem 0;
-}
-  
-.slick-loading .slick-track {
-    visibility: hidden;
-}
-  
-.slick-slide.slick-loading img {
-    display: none;
-}
-  
-.slick-slide.dragging img {
-    pointer-events: none;
-}
-  
-.slick-loading .slick-slide {
-    visibility: hidden;
-}
-  
-  
-/* Media Queries */
-  
-@media (max-width: 768px) {
-    .slick-arrow {
-      width: 1rem;
-      height: 1rem;
-    }
+.horizontal {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 40px;
 }
 
+/* Create four equal columns that sits next to each other */
+.vertical {
+  -ms-flex: 25%; /* IE10 */
+  flex: 20%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.vertical img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .vertical {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .vertical {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+#certificatebtn{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
 
 
 
@@ -418,7 +407,7 @@ html{
     font-family: sans-serif;
     position: absolute;
     color: rgb(230, 89, 89);
-    margin-top: 80px;
+    margin-top: 60px;
     margin-left: 100px;
 }
 
@@ -471,11 +460,6 @@ html{
 
 
 
-
-
-
-
-
 /* Hackathons and Compettions */
 
 #hack{
@@ -483,7 +467,7 @@ html{
     width: 100%;
     color: var(--secondary-color);
     text-align: center;
-    margin-top: 360px;
+    margin-top: 300px;
     margin-bottom: 100px;
 
 }
@@ -646,5 +630,18 @@ html{
     margin-left: 240px;
     margin-top: 60px;
     color: var(--secondary-color);
+
+}
+
+
+/* Footer */
+
+#foot{
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    color: var(--secondary-color);
+    text-align: right;
+    margin-right: 20px;
 
 }

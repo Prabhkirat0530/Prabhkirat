@@ -276,10 +276,6 @@ html{
   color: var(--secondary-color);
 }
 
-.icon-box:hover {
-  background: rgba(122, 122, 122, 0.12);
-}
-
 .tech-icon{
     width: 28px;
     height: 28px;

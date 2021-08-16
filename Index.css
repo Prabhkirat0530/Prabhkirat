@@ -318,10 +318,11 @@ html{
 
     width: auto;
 	height: auto;
-    color: black;
+    color: var(--secondary-color);
     background-color: rgb(178, 73, 78);
-    border: 1px solid black;
+    border: 2px solid black;
     padding: 10px;
+    padding-bottom: 50px;
     margin-top: 40px;
     margin-bottom: 40px;
     margin-left: 50px;
@@ -375,10 +376,9 @@ html{
 }
 
 #certificatebtn{
-    text-align: center;
     text-decoration: none;
     color: black;
-    display: block;
+    align-items: right;
     font-size: 20px;
     text-align: right;
     margin-bottom: 10px;

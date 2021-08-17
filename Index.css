@@ -15,7 +15,7 @@ html{
 .dark-theme{
   
     --primary-color: #121212;
-    --secondary-color: rgb(230, 230, 230);
+    --secondary-color: rgb(179, 179, 179);
   
 }
   
@@ -251,7 +251,6 @@ html{
 
 /*skills*/
 
-
 .icon-box {
   display: flex;
   align-items: center;
@@ -298,91 +297,20 @@ html{
 }
 
 
-.logo{
-
-    height: 100px;
-    width: 100px;
-    margin-top: 50px;
-    margin-left: 50px;
-    display: inline-flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
 
 
 
-/* Featured Box */
+/* Experience */
 
-.featured{
-
-    width: auto;
-	height: auto;
+.detailsBox{
+    margin-left: 160px;
     color: var(--secondary-color);
-    background-color: rgb(178, 73, 78);
-    border: 2px solid black;
-    padding: 10px;
-    padding-bottom: 50px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 50px;
-    margin-right: 50px;
-    border-radius: 10px;
-    transition: ease-in-out 0.3s;
 }
 
 
-
-/* Images certifates */
-
-.horizontal {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  padding: 0 40px;
-}
-
-/* Create four equal columns that sits next to each other */
-.vertical {
-  -ms-flex: 25%; /* IE10 */
-  flex: 20%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-.vertical img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .vertical {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .vertical {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-
-#certificatebtn{
-    text-decoration: none;
-    color: black;
-    align-items: right;
+.details{
+    margin-top: 100px;
     font-size: 20px;
-    text-align: right;
-    margin-bottom: 10px;
-    margin-right: 10px;
 }
 
 
@@ -401,7 +329,6 @@ html{
 .maintext2{
     font-size: 80px;
     font-family: sans-serif;
-    position: absolute;
     color: rgb(230, 89, 89);
     margin-top: 60px;
     margin-left: 100px;

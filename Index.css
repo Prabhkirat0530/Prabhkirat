@@ -342,9 +342,9 @@ html{
 .column {
     float: left;
     width: 23%;
+    height: auto;
     margin: 0 12px;
     color: black;
-    position: relative;
     margin-top: 25px;
     border-radius: 10px;
     background-color: rgb(216, 213, 213);
@@ -365,7 +365,7 @@ html{
 }
 
 /* Responsive columns */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     .column {
       width: 100%;
       display: block;
@@ -377,7 +377,13 @@ html{
 .card {
     padding: 10px;
     text-align: center;
-    height: 200px;
+    margin-bottom: 20px;
+    height: auto;
+}
+
+.learnMore{
+    text-decoration: none;
+    color: rgb(53, 121, 246);
 }
 
 

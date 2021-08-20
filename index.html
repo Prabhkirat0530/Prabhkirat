@@ -15,9 +15,6 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
     <link rel="manifest" href="favicon_io/site.webmanifest">
 
-    <!-- Slick Slider CSS -->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-
 </head>
 
 <body style="top: 0;" id="body">
@@ -34,13 +31,9 @@
         <a href="https://drive.google.com/drive/folders/12UrwaRpBfqhsG5-nlmm7kaOzFoqyT6yd?usp=sharing">Certificates</a>
         <a href="#contactme">Contact</a>
 
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <img style="width: 20px;" src="Images/bars.svg">
-        </a>
-
         <img id="moon" class="login" src="dark theme icon/moon.png">
 
-        <button id="download" class="resbtn" type="submit"
+        <button class="resbtn download" type="submit"
             onclick="window.location.href='https:/drive.google.com/file/d/1s3fdVESQogOQh0Qor_pwZPLdPs177kLV/view?usp=sharing'">
             Download Resume
         </button>
@@ -54,9 +47,9 @@
 
         <!-- Name -->
 
-        <div id="main">
+        <div class="main">
             <h1 class="animate__animated animate__backInUp">PrabhKirat</h1>
-            <p id="singh">Singh</p>
+            <p class="singh">Singh</p>
         </div>
 
         <div class="drop"></div>
@@ -411,10 +404,10 @@
             <a href="" class="but1"> Learn More >></a><br>
 
 
-            <img id="h1" src="Images/Hackathons/hackwithher1.png">
-            <img id="h2" src="Images/Hackathons/hackwithher2.png">
-            <img id="h3" src="Images/Hackathons/hackwithher3.png">
-            <img id="h4" src="Images/Hackathons/hackwithher4.png">
+            <img class="h1" src="Images/Hackathons/hackwithher1.png">
+            <img class="h2" src="Images/Hackathons/hackwithher2.png">
+            <img class="h2" src="Images/Hackathons/hackwithher3.png">
+            <img class="h2" src="Images/Hackathons/hackwithher4.png">
 
         </div>
 
@@ -438,10 +431,10 @@
 
             <a href="" class="but1"> Learn More >></a><br>
 
-            <img id="h1" src="Images/Hackathons/hackwithher1.png">
-            <img id="h2" src="Images/Hackathons/hackwithher2.png">
-            <img id="h3" src="Images/Hackathons/hackwithher3.png">
-            <img id="h4" src="Images/Hackathons/hackwithher4.png">
+            <img class="h1" src="Images/Hackathons/hackwithher1.png">
+            <img class="h2" src="Images/Hackathons/hackwithher2.png">
+            <img class="h2" src="Images/Hackathons/hackwithher3.png">
+            <img class="h2" src="Images/Hackathons/hackwithher4.png">
 
         </div>
 
@@ -455,17 +448,17 @@
 
     <div class="contact-section" id="contactme">
 
-        <h1 id="conheading">Contact me</h1>
-        <img id="chat2" src="Images/chat.webp">
+        <h1 class="conheading">Contact me</h1>
+        <img class="chat2" src="Images/chat.webp">
 
-        <div id="card" class="reveal">
+        <div class="cards2 reveal">
 
             <h2 id="n"> PrabhKirat Singh</h2>
             <h3 style="margin-left: 20px; margin-top: -20px;">Software Developer</h3>
 
 
             <!-- Card Image -->
-            <img id="vcard" src="Images/me.jpg">
+            <img class="vcard" src="Images/me.jpg">
 
             <ul id="in">
                 <li>9518179383</li>
@@ -502,8 +495,8 @@
 
         </div>
 
-        <img id="conimg" title="Scan QR code for information" src="Images/QR code.png">
-        <p id="text">Scan QR code for information</p>
+        <img class="conimg" title="Scan QR code for information" src="Images/QR code.png">
+        <p class="qr">Scan QR code for information</p>
 
     </div><br>
 
@@ -517,58 +510,6 @@
 
     <script src="darkmode.js"></script>
     <script src="scrollanimation.js"></script>
-
-
-    <!-- jQuery first, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-    <!-- Slick Slider JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-
-
-    <!-- Responsive navigation -->
-
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-    </script>
-
-    <!-- Carosal -->
-
-    <script>
-        $(document).ready(function () {
-            $('.logo-carousel').slick({
-                slidesToShow: 6,
-                slidesToScroll: 1,
-                autoplay: true,
-                autoplaySpeed: 1500,
-                arrows: false,
-                dots: false,
-                pauseOnHover: false,
-                responsive: [{
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 4
-                    }
-                }, {
-                    breakpoint: 520,
-                    settings: {
-                        slidesToShow: 2
-                    }
-                }]
-            });
-        });
-    </script>
 
 
 </body>

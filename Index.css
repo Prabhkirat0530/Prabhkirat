@@ -354,8 +354,11 @@ html{
 
 @media screen and (max-width: 1000px) {
     .detailsBox{
-        margin: 0 10px 10px 10px;
+        margin: 0 10px ;
         font-size: 18px;
+    }
+    .details{
+        margin-top: 60px;
     }
 
 }
@@ -388,11 +391,13 @@ html{
         text-align: left;
         font-size: 65px;
         margin-left: 0;
+        margin-bottom: 0;
     }
     .maintext2{
         text-align: left;
         font-size: 65px;
         margin-left: 0;
+        margin-bottom: 0;
     }
 
 }
@@ -511,7 +516,7 @@ html{
 /* Images for hackathon block */
 
 
-.h1{
+.img1{
 
     width: 200px;
     height: 200px;
@@ -520,7 +525,7 @@ html{
     margin-left: 20px;
 }
 
-.h2{
+.img2{
 
     width: 200px;
     height: 200px;
@@ -536,21 +541,10 @@ html{
         font-size: 15px;
         margin: 0 10px 10px 10px;
     }
-    .h1{
-        width: 100px;
-        height: 100px;
-        display: flexbox;
-        margin-left: 0;
-        margin-bottom: 10px;
+    .img1{
+        display: none;
     }
-    .h2{
-        width: 100px;
-        height: 100px;
-        display: flexbox;
-        box-align: center;
-        margin-bottom: 10px;
-    }
-    .h3{
+    .img2{
         display: none;
     }
 

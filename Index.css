@@ -189,41 +189,11 @@ html{
     box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
-@media screen and (max-width: 1000px) {
-    .main{
-        position: relative;
-        text-align: center;
-        margin-left: 10px;
-        font-size: 40px;
-    }
-    .singh{
-        position: relative;
-        font-size: 30px;
-        margin-left: 0;
-        margin-top: -40px;
-        margin-bottom: 80px;
-    }
-
-}
-
-@media screen and (max-width: 1000px) {
-    .drop{
-        position: relative;
-        margin-top: 0;
-        margin-left: 30px;
-        width: 370px;
-        height: 370px;
-        display: flex;
-
-    }
-
-}
-
 
 
 /* Highlighted points about me */
 
-#para{
+.para{
     text-align: left;
     margin: 0 60px;
     margin-top: 100px;
@@ -232,7 +202,7 @@ html{
 
 /*Contact icons*/
 
-#contact{
+.contact{
     text-align: left;
     margin: 0 60px;
     margin-bottom: 100px;
@@ -264,6 +234,48 @@ html{
   text-decoration: none;
 
 }
+
+
+
+@media screen and (max-width: 1000px) {
+    .main{
+        position: relative;
+        text-align: center;
+        margin: 0;
+        margin-top: 100px;
+        font-size: 40px;
+    }
+    .singh{
+        position: relative;
+        font-size: 30px;
+        margin-left: 0;
+        margin-top: -40px;
+        margin-bottom: 80px;
+    }
+    .drop{
+        position: relative;
+        margin-top: 0;
+        margin-left: 90px;
+        width: 350px;
+        height: 350px;
+
+    }
+    .para{
+        margin: 0 10px;
+        margin-top: 100px;
+    }
+    .contact{
+        text-align: center;
+        margin: 0 ;
+        color: rgb(226, 101, 89);
+    }
+    .tags{
+        text-align: center;
+        margin: 0;
+    }
+
+}
+
 
 
 /*skills*/
@@ -311,8 +323,12 @@ html{
 @media screen and (max-width: 1000px) {
     .grid-container{
         margin-top: 200px;
+        padding-left: 0px;
         padding: 0;
         grid-template-columns: auto auto;
+    }
+    .icon-box{
+        padding-left: 30px;
     }
     .icon-box h3{
         font-size: 18px;
@@ -368,15 +384,15 @@ html{
 
 @media screen and (max-width: 1000px) {
     .maintext {
-        text-align: center;
+        text-align: left;
         font-size: 65px;
-        margin-left: 50px;
+        margin-left: 20px;
 
     }
     .maintext2{
-        text-align: center;
+        text-align: left;
         font-size: 65px;
-        margin-left: 0;
+        margin-left: 20px;
     }
 
 }
@@ -420,11 +436,9 @@ html{
         margin-bottom: 20px;
     }
     .row{
-        padding: 0 10px 10px 10px;
-        width: 100%;
+        padding: 0 10px 0 10px;
+        width: auto;
         height: auto;
-        display: flexbox;
-        align-items: center;
         margin-top: 320px;
     }
 }
@@ -516,10 +530,11 @@ html{
 
 @media screen and (max-width: 1000px) {
     .hack1{
-        width: 90%;
+        float: center;
+        width: auto;
         height: auto;
         font-size: 15px;
-        margin: 0 10px 20px 10px;
+        margin: 0 10px 10px 10px;
     }
     .h1{
         width: 100px;
@@ -534,6 +549,9 @@ html{
         display: flexbox;
         box-align: center;
         margin-bottom: 10px;
+    }
+    .h3{
+        display: none;
     }
 
 }
@@ -606,24 +624,24 @@ html{
 @media screen and (max-width: 1000px) {
     .reveal{
         size: auto;
-        width: 100%;
+        width: 90%;
         height: auto;
+        margin: 50px 10px;
     }
 
     .conheading{
         width: auto;
         margin-left: auto;
         height: auto;
-        text-align: center;
+        text-align: left;
     }
     .chat2{
-        width: auto;
-        margin-left: auto;
-        height: auto;
         width: 300px;
         height: 100px;
         opacity: 50%;
-        text-align: center;
+        text-align: left;
+        margin-left: 0;
+        margin-top: -80px;
     }
     .vcard{
         display: none;
@@ -665,12 +683,20 @@ html{
 
 /* Footer */
 
-#foot{
+.foot{
     background-color: transparent;
     width: auto;
     height: auto;
     color: var(--secondary-color);
     text-align: right;
     margin-right: 20px;
+
+}
+
+@media screen and (max-width: 1000px) {
+    .foot{
+        text-align: center;
+        margin: auto;
+    }
 
 }

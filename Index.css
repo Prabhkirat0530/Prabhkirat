@@ -255,7 +255,7 @@ html{
     .drop{
         position: relative;
         margin-top: 0;
-        margin-left: 90px;
+        margin: 10px;
         width: 350px;
         height: 350px;
 
@@ -386,13 +386,13 @@ html{
     .maintext {
         text-align: left;
         font-size: 65px;
-        margin-left: 20px;
+
 
     }
     .maintext2{
         text-align: left;
         font-size: 65px;
-        margin-left: 20px;
+
     }
 
 }
@@ -633,15 +633,10 @@ html{
         width: auto;
         margin-left: auto;
         height: auto;
-        text-align: left;
+        text-align: center;
     }
     .chat2{
-        width: 300px;
-        height: 100px;
-        opacity: 50%;
-        text-align: left;
-        margin-left: 0;
-        margin-top: -80px;
+        display: none;
     }
     .vcard{
         display: none;

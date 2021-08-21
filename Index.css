@@ -254,8 +254,8 @@ html{
     }
     .drop{
         position: relative;
-        margin-top: 0;
-        margin: 10px;
+        margin-top: 20px;
+        margin-left: 30px;
         width: 350px;
         height: 350px;
 
@@ -386,13 +386,12 @@ html{
     .maintext {
         text-align: left;
         font-size: 65px;
-
-
+        margin-left: 0;
     }
     .maintext2{
         text-align: left;
         font-size: 65px;
-
+        margin-left: 0;
     }
 
 }

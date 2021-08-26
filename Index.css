@@ -262,7 +262,7 @@ html{
 
     }
     .para{
-        margin: 0 10px;
+        margin: 0;
         margin-top: 100px;
         text-align: center;
         list-style-type: none;
@@ -275,6 +275,10 @@ html{
     .tags{
         text-align: center;
         margin: 0;
+    }
+    .listvaala{
+        list-style: none;
+        padding-left: 0;
     }
 
 }
@@ -561,7 +565,6 @@ html{
 .contact-section {
     padding: 30px;
     color: black;
-    margin-bottom: 0;
 }
 
 .conheading{
@@ -636,6 +639,12 @@ html{
     }
     .vcard{
         display: none;
+    }
+    .contact-section{
+        width: 85%;
+        display: inline-block;
+        height: auto;
+        margin: 0;
     }
 }
 

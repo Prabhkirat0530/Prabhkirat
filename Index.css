@@ -187,8 +187,6 @@ html{
     background-image: url(Images/Prabhkirat.png);
     background-size: cover;
     border-radius: 50%;
-    /* border-radius: 36% 64% 64% 36% / 39% 40% 60% 61%; */
-    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 

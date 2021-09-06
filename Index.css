@@ -395,13 +395,13 @@ html{
     .maintext {
         text-align: left;
         font-size: 65px;
-        margin-left: 10px;
+        margin-left: 0px;
         margin-bottom: 0;
     }
     .maintext2{
         text-align: left;
         font-size: 65px;
-        margin-left: 10px;
+        margin-left: 0px;
         margin-bottom: 0;
     }
 
@@ -638,7 +638,7 @@ html{
   }
   .blog-row{
       margin-top: 100px;
-      margin-left: 50px;
+      /* margin-left: 50px; */
       max-width: 100%;
       padding: 0;
       display: inline-block;

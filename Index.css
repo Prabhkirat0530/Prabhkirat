@@ -644,12 +644,10 @@ html{
       display: inline-block;
   }
   .blog-img{
-      width: 80%;
-      height: auto;
+      width: 95%;
+      height: 220px;
   }
 }
-
-
 
 
 
@@ -716,9 +714,9 @@ html{
 @media screen and (max-width: 1000px) {
     .reveal{
         size: auto;
-        width: 90%;
+        width: 95%;
         height: auto;
-        margin: 50px 20px;
+        margin: 50px 0;
     }
 
     .conheading{
@@ -738,6 +736,9 @@ html{
         display: inline-block;
         height: auto;
         margin: 0;
+    }
+    .cards2{
+        margin-left: 0;
     }
 }
 

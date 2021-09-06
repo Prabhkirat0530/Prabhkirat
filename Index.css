@@ -395,13 +395,13 @@ html{
     .maintext {
         text-align: left;
         font-size: 65px;
-        margin-left: 0;
+        margin-left: 10px;
         margin-bottom: 0;
     }
     .maintext2{
         text-align: left;
         font-size: 65px;
-        margin-left: 0;
+        margin-left: 10px;
         margin-bottom: 0;
     }
 
@@ -594,6 +594,58 @@ html{
 }
 
 
+/* Blogs */
+
+.blog-row {
+  margin-bottom: 150px;
+  margin-top: 60px;
+  margin-left: 40px;
+  padding: 0 80px;
+
+}
+
+.blog-img{
+    width: 400px;
+    height: 220px;
+    max-width: 100%;
+}
+
+/* Add padding BETWEEN each column */
+.blog-row,
+.blog-row > .blog-entry {
+  padding: 10px;
+}
+
+/* Create equal columns that floats next to each other */
+.blog-entry {
+  float: left;
+  width: 30%;
+  height: auto;
+  margin: 0 10px; 
+}
+
+/* Clear floats after rows */ 
+.blog-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 900px) {
+  .blog-entry {
+    width: 85%;
+  }
+  .blog-row{
+      margin-top: 100px;
+      margin-left: 50px;
+      max-width: 100%;
+      padding: 0;
+      display: inline-block;
+  }
+}
+
+
 
 
 
@@ -629,8 +681,8 @@ html{
     padding: 10px;
     margin-top: 50px;
     margin-left: 30px;
-    display: inline-block;
     color: black;
+    display: inline-block;
 
 }
 
@@ -662,7 +714,7 @@ html{
         size: auto;
         width: 90%;
         height: auto;
-        margin: 50px 10px;
+        margin: 50px 20px;
     }
 
     .conheading{

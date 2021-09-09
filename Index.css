@@ -634,17 +634,17 @@ html{
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 900px) {
   .blog-entry {
-    width: 85%;
+    width: 90%;
   }
   .blog-row{
       margin-top: 100px;
-      /* margin-left: 50px; */
+      margin-left: 0;
       max-width: 100%;
       padding: 0;
       display: inline-block;
   }
   .blog-img{
-      width: 95%;
+      width: 100%;
       height: 220px;
   }
 }
@@ -717,7 +717,7 @@ html{
         size: auto;
         width: 95%;
         height: auto;
-        margin: 50px 0;
+        /* margin: 50px 0; */
     }
 
     .conheading{
@@ -740,6 +740,12 @@ html{
     }
     .cards2{
         margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .vcard{
+        display: none;
     }
 }
 

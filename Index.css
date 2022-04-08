@@ -511,6 +511,40 @@ html{
 }
 
 
+/* Github buttons */
+
+.gitbutton{
+    background-color: var(--secondary-color);
+    border: 1px solid rgba(54, 54, 54, 0.6);
+    position: relative;
+    outline: none;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: 1;
+    width: 120px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.git{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .gitbutton {
+        text-align: left;
+        margin-left: 30px;
+        margin-bottom: 0;
+    }
+}
+
+
+
 
 
 /* Hackathons and Compettions */
